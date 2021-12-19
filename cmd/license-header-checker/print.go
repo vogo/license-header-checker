@@ -27,8 +27,8 @@ import (
 	"fmt"
 
 	"github.com/gookit/color"
-	"github.com/lsm-dev/license-header-checker/internal/options"
-	"github.com/lsm-dev/license-header-checker/pkg/process"
+	"github.com/vogo/license-header-checker/internal/options"
+	"github.com/vogo/license-header-checker/pkg/process"
 )
 
 var (

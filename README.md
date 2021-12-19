@@ -1,6 +1,6 @@
 ![Header](images/header.png)
 
-![Build Status](https://github.com/lsm-dev/license-header-checker/workflows/Build/badge.svg)   ![Test Status](https://github.com/lsm-dev/license-header-checker/workflows/Test/badge.svg)
+![Build Status](https://github.com/vogo/license-header-checker/workflows/Build/badge.svg)   ![Test Status](https://github.com/vogo/license-header-checker/workflows/Test/badge.svg)
 
 Multiplatform command line tool that **checks** whether the **license headers** are included in the **source files** of a project.
 
@@ -44,7 +44,7 @@ $ license-header-checker -v -a -r -i node_modules,client/assets ../license_heade
 
 ## Binary packages
 
-The binary packages for Linux, Windows and macOS are uploaded for each release and can be downloaded from [here](https://github.com/lsm-dev/license-header-checker/releases).
+The binary packages for Linux, Windows and macOS are uploaded for each release and can be downloaded from [here](https://github.com/vogo/license-header-checker/releases).
 
 ## Building from source
 The tool has been built with [go 1.13](https://golang.org/doc/devel/release.html#go1.13).
