@@ -37,10 +37,11 @@ func containsLicenseHeader(content string) bool {
 
 // extractHeader returns the first block comment of the content (if any). Empty string otherwise.
 func extractHeader(content string) (header string) {
-	lines := strings.Split(content, "\n")
-	if !strings.HasPrefix(lines[0], "/*") {
+	if !strings.HasPrefix(content, "/*") {
 		return ""
 	}
+
+	lines := strings.Split(content, "\n")
 
 	for _, line := range lines {
 		if strings.Contains(line, "*/") {
